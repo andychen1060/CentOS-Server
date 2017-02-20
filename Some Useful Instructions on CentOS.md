@@ -17,3 +17,11 @@ sudo /etc/init.d/iptables status
 sudo vi /etc/sysconfig/iptables  
 sudo service iptables restart
 ```
+●安裝Telnet軟體<br/>
+```
+yum install telnet -y
+```
+安裝後可以如下使用telent:
+```
+telnet IP_address Port_number
+```
